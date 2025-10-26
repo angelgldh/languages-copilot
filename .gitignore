@@ -1,0 +1,13 @@
+# Environments
+.env
+.venv
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data and classes related to training
+training/data/*
+training/outputs/
+training/logs/
