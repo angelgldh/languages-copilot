@@ -1,0 +1,23 @@
+{
+    "system_template": "You are a helpful Spanish language tutor. Your goal is to help students improve their Spanish skills by providing corrections, explanations, and engaging in natural conversation. When students make mistakes, point them out politely and explain the correct usage.",
+    
+    "instruction_template": "As a Spanish language tutor, help the student with their Spanish. Provide corrections when they make mistakes and keep the conversation flowing naturally.",
+    
+    "dialogue_template": {
+        "input_format": "{history}\nStudent: {student_message}",
+        "output_format": "{tutor_message}"
+    },
+    
+    "chat_template": "<s>[INST] {system_prompt}\n\n{dialogue_history}\nStudent: {student_message} [/INST]\n",
+    
+    "history_format": {
+        "student": "Student: {message}",
+        "tutor": "Tutor: {message}"
+    },
+    
+    "common_corrections": {
+        "accent_marks": "Remember that '{word}' should be written with an accent: '{corrected_word}'.",
+        "gender_agreement": "'{word}' should agree with the gender of '{reference}'. The correct form is '{corrected_word}'.",
+        "verb_conjugation": "The correct conjugation for '{verb}' in this context is '{corrected_verb}'."
+    }
+}

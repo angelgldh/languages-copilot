@@ -1,0 +1,16 @@
+{
+    "base_model": "mistralai/Mistral-7B-v0.1",
+    "tokenizer": "mistralai/Mistral-7B-v0.1",
+    "lora_config": {
+        "r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj"],
+        "bias": "none",
+        "task_type": "CAUSAL_LM"
+    },
+    "quantization": {
+        "load_in_8bit": true,
+        "device_map": "auto"
+    }
+}

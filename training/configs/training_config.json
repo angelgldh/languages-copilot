@@ -1,0 +1,25 @@
+{
+    "training": {
+        "per_device_train_batch_size": 4,
+        "per_device_eval_batch_size": 4,
+        "gradient_accumulation_steps": 8,
+        "learning_rate": 3e-4,
+        "num_train_epochs": 3,
+        "lr_scheduler_type": "cosine",
+        "warmup_ratio": 0.03,
+        "weight_decay": 0.01,
+        "fp16": true,
+        "evaluation_strategy": "epoch",
+        "logging_steps": 10,
+        "save_strategy": "epoch",
+        "output_dir": "training/outputs/tutor-lora/spanish",
+        "save_total_limit": 3,
+        "load_best_model_at_end": true,
+        "metric_for_best_model": "eval_loss"
+    },
+    "data": {
+        "train_test_split": 0.1,
+        "seed": 42,
+        "max_length": 1024
+    }
+}
