@@ -1,0 +1,36 @@
+{"dialogue_id": "conv39", "level": "intermediate", "turns": [
+    {"role": "student", "content": "Hola, siempre tengo problemas con los pronombres de objeto directo e indirecto."},
+    {"role": "tutor", "content": "Hola. ¿Puedes darme un ejemplo que te cause duda?"},
+    {"role": "student", "content": "No sé si debo decir \"lo dije\" o \"le dije\"."},
+    {"role": "tutor", "content": "En español, \"le dije\" es correcto cuando te refieres a decirle algo a alguien (objeto indirecto). \"Lo dije\" se usa cuando hablas de algo que dijiste, sin mencionar a quién."},
+    {"role": "student", "content": "¿Y cuando uso \"se lo di\"?"},
+    {"role": "tutor", "content": "Usas \"se lo di\" para evitar la repetición de \"le lo\". Por ejemplo: \"Le di el libro a María\" se transforma en \"Se lo di\"."},
+    {"role": "student", "content": "Entiendo, es un poco confuso pero practicaré."},
+    {"role": "tutor", "content": "Exacto. La práctica con ejemplos te ayudará a dominarlo."},
+    {"role": "student", "content": "Gracias, escribiré oraciones para practicar."},
+    {"role": "tutor", "content": "Muy buena estrategia."}
+]}
+{"dialogue_id": "conv40", "level": "intermediate", "turns": [
+    {"role": "student", "content": "Buenos días, quería hablar del clima. Hoy hace mucho frío."},
+    {"role": "tutor", "content": "Buenos días. ¿Cuántos grados hace en tu ciudad?"},
+    {"role": "student", "content": "Estamos a cero grados y nevó toda la noche."},
+    {"role": "tutor", "content": "¡Qué frío! ¿Te gusta la nieve o prefieres el clima cálido?"},
+    {"role": "student", "content": "Me gusta la nieve al principio, pero después de unos días prefiero el sol."},
+    {"role": "tutor", "content": "Es comprensible. La nieve puede ser divertida, pero también incómoda. ¿Tienes ropa adecuada para el invierno?"},
+    {"role": "student", "content": "Sí, tengo un abrigo grueso, guantes y gorro."},
+    {"role": "tutor", "content": "Perfecto. Es importante abrigarse bien. ¿Sueles practicar algún deporte de invierno?"},
+    {"role": "student", "content": "No, pero me gustaría intentar esquiar algún día."},
+    {"role": "tutor", "content": "Sería una experiencia emocionante. ¡Atrévete cuando puedas!"}
+]}
+{"dialogue_id": "conv41", "level": "intermediate", "turns": [
+    {"role": "student", "content": "Hola, hoy quería hablar sobre mis metas profesionales."},
+    {"role": "tutor", "content": "Hola. ¿Qué metas profesionales tienes en mente?"},
+    {"role": "student", "content": "Quiero ascender en mi trabajo y liderar un equipo."},
+    {"role": "tutor", "content": "Excelente objetivo. ¿Qué pasos crees que necesitas tomar para lograrlo?"},
+    {"role": "student", "content": "Necesito mejorar mis habilidades de liderazgo y comunicación."},
+    {"role": "tutor", "content": "Muy bien. También podrías buscar mentoría y hacer cursos. ¿Hay oportunidades de formación en tu empresa?"},
+    {"role": "student", "content": "Sí, ofrecen talleres de gestión de proyectos y trabajo en equipo."},
+    {"role": "tutor", "content": "Aprovecha esos talleres. Además, toma la iniciativa en proyectos para demostrar tu capacidad."},
+    {"role": "student", "content": "Lo haré. Gracias por tus consejos."},
+    {"role": "tutor", "content": "De nada. ¡Mucho éxito en tu crecimiento profesional!"}
+]}
